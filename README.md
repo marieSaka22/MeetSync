@@ -240,7 +240,7 @@ http://localhost:8080
 
 ## Author
 
-**Mariam Sakandelidze**
+**Mariam Sakandelidze, Nino Shvelidze**
 
 Georgian Technical University (GTU)  
 Object Oriented Programming — Java Application Project  
