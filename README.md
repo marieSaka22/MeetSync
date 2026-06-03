@@ -1,6 +1,19 @@
 # MeetSync — Meeting Scheduling & Reminder System
 
-MeetSync is a web-based meeting scheduling and reminder application developed using a Java-based web architecture.
+## Project Information
+
+**University:** Georgian Technical University (GTU)  
+**Course:** Object Oriented Programming — Java Application  
+**Lecturer:** Lela Papava  
+**Student:** Mariam Sakandelidze, Nino Shvelidze
+
+---
+
+## About the Project
+
+MeetSync is a web-based meeting scheduling and reminder application developed as a university project for the Object Oriented Programming Java Application course.
+
+The application is developed using Java-based web architecture and demonstrates object-oriented programming principles, database integration, authentication, and web application development.
 
 The system allows users to create personal accounts, log in, and manage their own meetings and schedules. Each user has a separate calendar and can only access their own saved meetings.
 
@@ -11,6 +24,7 @@ The application is built with a Java Servlet-based backend architecture using Sp
 ## Technology Stack
 
 ### Backend
+
 - Java
 - Spring Boot
 - Servlet-based web architecture (Spring DispatcherServlet)
@@ -22,14 +36,17 @@ The application is built with a Java Servlet-based backend architecture using Sp
 - MySQL Database
 
 ### Frontend
+
 - HTML
 - CSS
 - JavaScript
 - FullCalendar Library
 
 ### Development Tools
+
 - IntelliJ IDEA
 - Maven
+- Git / GitHub
 - phpMyAdmin
 
 ---
@@ -101,7 +118,7 @@ Meeting information includes:
 
 ### Calendar Interface
 
-The system provides a modern calendar interface using FullCalendar.
+The system provides an interactive calendar interface using FullCalendar.
 
 Supported views:
 
@@ -121,7 +138,7 @@ The system:
 - Checks pending reminders automatically
 - Displays reminder notifications
 
-Implemented using Spring scheduling.
+Implemented using Spring Scheduling.
 
 ---
 
@@ -141,18 +158,16 @@ Main database entities:
 
 ### users
 
-Stores account information:
+Stores:
 
 - username
 - email
 - encrypted password
 - user role
 
----
-
 ### meetings
 
-Stores meeting data:
+Stores:
 
 - meeting details
 - date and time
@@ -160,13 +175,9 @@ Stores meeting data:
 
 Each meeting belongs to a specific user.
 
----
-
 ### reminders
 
 Stores meeting reminder information.
-
----
 
 ### meeting_participants
 
@@ -182,6 +193,7 @@ The application includes:
 - JWT tokens
 - Password hashing
 - Protected user data
+- User-based data separation
 
 Users can only access their own meetings.
 
@@ -200,7 +212,7 @@ git clone <repository-url>
 3. Configure MySQL connection in:
 
 ```text
-application.properties
+src/main/resources/application.properties
 ```
 
 4. Start the Spring Boot application
@@ -228,7 +240,8 @@ http://localhost:8080
 
 ## Author
 
-Mariam Sakandelidze
+**Mariam Sakandelidze**
 
-## Special thanks to
-AIs(chatgpt codex, claude, perpex)
+Georgian Technical University (GTU)  
+Object Oriented Programming — Java Application Project  
+2026
