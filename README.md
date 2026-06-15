@@ -5,7 +5,7 @@
 **University:** Georgian Technical University (GTU)  
 **Course:** Object Oriented Programming — Java Application  
 **Lecturer:** Lela Papava  
-**Student:** Mariam Sakandelidze, Nino Shvelidze
+**Student:** Mariam Sakandelidze
 
 ---
 
@@ -240,7 +240,7 @@ http://localhost:8080
 
 ## Author
 
-**Mariam Sakandelidze, Nino Shvelidze**
+**Mariam Sakandelidze**
 
 Georgian Technical University (GTU)  
 Object Oriented Programming — Java Application Project  
